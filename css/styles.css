@@ -7,16 +7,15 @@
 }
 
 .sideMenu {
-  height: 100;
+  height: 100%;
   width: 160px;
   position: fixed;
   z-index: 1;
   top: 0;
   left: 0;
-  background-color:lightblue;
   overflow-x: hidden;
   padding-top:20px;
-  background: lightgray;
+  background: linear-gradient( white, lightgrey, white);
   max-width: 300px;
 }
 
