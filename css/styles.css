@@ -5,3 +5,8 @@
 .jumbotron h5{
   color: red;
 }
+
+.sideMenu {
+  background: lightgray;
+  max-width: 300px;
+}
