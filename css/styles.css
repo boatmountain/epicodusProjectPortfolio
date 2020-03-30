@@ -1,5 +1,10 @@
+body {
+  background: linear-gradient( white, grey, beige);
+}
+
 .container {
   font-family: 'Oswald', sans-serif;
+  background: linear-gradient( white, beige, rgb(127, 138, 127));
 }
 h1 {
   text-align: center;
@@ -14,10 +19,11 @@ img {
 
 .jumbotron h5{
   color: red;
+  background: linear-gradient( grey, white, lightpink);
 }
 
 .sideMenu {
-  height: 100%;
+  font-size: 12;
   width: 160px;
   position: fixed;
   z-index: 1;
@@ -27,9 +33,15 @@ img {
   padding-top:20px;
   background: linear-gradient( white, lightgrey, white);
   max-width: 300px;
+  border: 2px solid white;
+
 }
 
 .fa {
   size: 2px;
   color: white;
+}
+
+footer {
+  text-align: center;
 }
