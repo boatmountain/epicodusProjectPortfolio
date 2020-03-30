@@ -1,6 +1,11 @@
 .container {
   font-family: 'Oswald', sans-serif;
 }
+img {
+  position: fixed;
+  height: 100%;
+  width: 100%;
+}
 
 .jumbotron h5{
   color: red;
